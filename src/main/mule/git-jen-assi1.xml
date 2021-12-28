@@ -10,6 +10,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	</http:listener-config>
 	<flow name="git-jen-assi1Flow" doc:id="dd89e352-0ba2-435b-87ba-94ada4f1e3fa" >
 		<http:listener doc:name="Listener" doc:id="956fe07b-51e6-49aa-a246-554cecee2b04" config-ref="HTTP_Listener_config" path="/test"/>
+		<logger level="INFO" doc:name="Logger" doc:id="841e6caf-1c9b-47d6-9a55-792a5080b8e7" />
 		<set-payload value='#["data added"]' doc:name="Set Payload" doc:id="b68ef084-a8b3-4ac4-83ac-fa33dfbffd7f" />
 		<ee:transform doc:name="Transform Message" doc:id="cda2e92d-e65b-4bf4-b9e9-eaffacdbabb7" >
 			<ee:message >
