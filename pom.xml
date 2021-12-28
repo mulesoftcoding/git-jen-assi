@@ -31,7 +31,7 @@
 				<extensions>true</extensions>
 				<configuration>
 				   <cloudHubDeployment>
-				    <usrname>shrutis_1999</usrname>
+				    <username>shrutis_1999</username>
 				    <environment>Sandbox</environment>
 				    <applicationName>git-jen-assignment</applicationName>
 				    <workerType>Micro</workerType>
